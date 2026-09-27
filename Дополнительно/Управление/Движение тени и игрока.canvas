@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"520b8bd480aa58f8","type":"text","text":"<center>ТЕНЬ</center>","x":-186,"y":13,"width":250,"height":60,"color":"5"},
+		{"id":"6c9165c14fae071a","type":"text","text":"<center>ПЕРСОНАЖ</center>","x":-186,"y":-139,"width":250,"height":60,"color":"4"},
+		{"id":"7ae5ea22f6183e92","type":"text","text":"<center>Хотяба</center>","x":-186,"y":-357,"width":250,"height":60},
+		{"id":"91406fa1155c3418","type":"text","text":"Движение в 4 направлениях:\n\n1. Вверх\n2. Вниз\n3. Влево\n4. Вправо","x":-791,"y":-861,"width":250,"height":214},
+		{"id":"8cd3f037523a3818","type":"text","text":"Можно сделать движение по диагонали, если одновременно нажать две клавиши","x":-111,"y":-1457,"width":250,"height":81},
+		{"id":"032670b44a520001","type":"text","text":"Скорость постоянная, без сложной физики","x":14,"y":-577,"width":250,"height":60},
+		{"id":"b914980e30aed6b6","type":"text","text":"Ходит","x":-541,"y":483,"width":250,"height":60},
+		{"id":"5e0185488415092a","type":"text","text":"Сталкивается с определёнными препядствиями","x":-236,"y":603,"width":250,"height":87},
+		{"id":"1f58357dd46be835","type":"file","file":"мывювмы/Everything for documentation/Characters/Тень/Тексовое описание механник/Определённые препятствия.md","x":-311,"y":823,"width":400,"height":560},
+		{"id":"ff4027ffd516e4b4","type":"text","text":"Взаимодействует с определёнными объектами","x":139,"y":285,"width":250,"height":79},
+		{"id":"79adfaa5a2ea0d5d","type":"text","text":"Во-первых, тень может видеть скрытые символы или порталы, которые недоступны персонажу","x":139,"y":425,"width":250,"height":116},
+		{"id":"f5c4b88703ab3d6c","type":"text","text":"Во-вторых, тень может активировать  специальные механизмы, например открывать двери, когда она в определённой позиции","x":139,"y":622,"width":250,"height":161},
+		{"id":"293d0e3f355642c5","type":"file","file":"мывювмы/Теневые фрагменты.md","x":564,"y":1027,"width":400,"height":327},
+		{"id":"37fbbeb30e3c562a","type":"text","text":"Имеет ограничение по расстоянию от персонажа","x":514,"y":225,"width":250,"height":60},
+		{"id":"8bb2b53f27f9b1e9","type":"text","text":"<center>Прочее</center>","x":389,"y":-267,"width":250,"height":60},
+		{"id":"8655e5429f025c6d","type":"text","text":"Персонаж не может проходить сквозь стены, оборудование и другие препятствия","x":179,"y":-1027,"width":250,"height":110},
+		{"id":"8e7db16788ff10da","type":"text","text":"При столкновении с объектом персонаж останавливается","x":714,"y":-861,"width":250,"height":76},
+		{"id":"e95f2247acdd1618","type":"text","text":"В-третьих, тень может собирать теневые фрагменты","x":139,"y":900,"width":250,"height":84}
+	],
+	"edges":[
+		{"id":"1af7064024d85ca7","fromNode":"520b8bd480aa58f8","fromSide":"bottom","toNode":"b914980e30aed6b6","toSide":"top"},
+		{"id":"85a2cf3cf2c06252","fromNode":"520b8bd480aa58f8","fromSide":"bottom","toNode":"5e0185488415092a","toSide":"top"},
+		{"id":"086442427cc7f761","fromNode":"520b8bd480aa58f8","fromSide":"bottom","toNode":"ff4027ffd516e4b4","toSide":"top"},
+		{"id":"74a09b163472bcbe","fromNode":"520b8bd480aa58f8","fromSide":"bottom","toNode":"37fbbeb30e3c562a","toSide":"top"},
+		{"id":"cd7f5259d558e94d","fromNode":"6c9165c14fae071a","fromSide":"top","toNode":"7ae5ea22f6183e92","toSide":"bottom"},
+		{"id":"ab3012056a85a3dd","fromNode":"6c9165c14fae071a","fromSide":"top","toNode":"8bb2b53f27f9b1e9","toSide":"bottom"},
+		{"id":"47feb5ec9e153017","fromNode":"7ae5ea22f6183e92","fromSide":"top","toNode":"91406fa1155c3418","toSide":"right"},
+		{"id":"6241191e335436f0","fromNode":"7ae5ea22f6183e92","fromSide":"top","toNode":"8cd3f037523a3818","toSide":"left"},
+		{"id":"d9825378332afc92","fromNode":"7ae5ea22f6183e92","fromSide":"top","toNode":"032670b44a520001","toSide":"left"},
+		{"id":"f3c3f24209ed15bb","fromNode":"5e0185488415092a","fromSide":"bottom","toNode":"1f58357dd46be835","toSide":"top"},
+		{"id":"a7c04588ff84e7e0","fromNode":"ff4027ffd516e4b4","fromSide":"bottom","toNode":"79adfaa5a2ea0d5d","toSide":"top"},
+		{"id":"7b12211f8549c04a","fromNode":"79adfaa5a2ea0d5d","fromSide":"bottom","toNode":"f5c4b88703ab3d6c","toSide":"top"},
+		{"id":"7e371837720c6ec9","fromNode":"f5c4b88703ab3d6c","fromSide":"bottom","toNode":"e95f2247acdd1618","toSide":"top"},
+		{"id":"9417903d6b33cf6e","fromNode":"e95f2247acdd1618","fromSide":"right","toNode":"293d0e3f355642c5","toSide":"left"},
+		{"id":"116118291416957c","fromNode":"8bb2b53f27f9b1e9","fromSide":"top","toNode":"8655e5429f025c6d","toSide":"right"},
+		{"id":"56280703d7d3724c","fromNode":"8bb2b53f27f9b1e9","fromSide":"top","toNode":"8e7db16788ff10da","toSide":"left"}
+	]
+}
